@@ -24,7 +24,7 @@ const siteConfig = {
   title: 'Test Site', // Title for your website.
   tagline: 'A website for testing',
   url: 'https://ssd-emil.github.io', // Your website URL
-  baseUrl: '/docusaurus-test', // Base URL for your project */
+  baseUrl: '/docusaurus-test/', // Base URL for your project */
   projectName: 'docusaurus-test',  // The name of your GitHub project. Same as above.
   organizationName: 'ssd-emil' // Your GitHub username.
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -32,8 +32,8 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  //projectName: 'test-site',
+  //organizationName: 'facebook',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -41,6 +41,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
+    {doc: 'doc9', label: 'Docs9'},
     {doc: 'doc4', label: 'API'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
